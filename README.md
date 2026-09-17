@@ -21,11 +21,11 @@
    * *На клиенте:* `LocalScript` делает первичную проверку для корректного отображения интерфейса (барьер для базового exploit-софта).
    * *На сервере:* При каждом вызове команды сервер заново проверяет `User ID` отправителя по своей таблице. Даже если читер попытается напрямую вызвать `RemoteEvent`, сервер мгновенно отклонит запрос.
      
- ## 📺 Демонстрация и тестирование проекта (Showcase)
+ ## 📺 Демонстрация проекта (Showcase)
 
 Вы можете посмотреть полную видеодемонстрацию работы парсера команд (ввод команд, логирование, обработку ошибок и плавный UI) по ссылке ниже:
 
-👉 **[Смотреть видеодемонстрацию тестирования](ВСТАВЬТЕ_СЮДА_ССЫЛКУ_НА_ВАШЕ_ВИДЕО)**
+👉 **[Смотреть видеодемонстрацию тестирования](https://youtu.be/co4W3W8pack)**
     
 # EN-en     
 
@@ -49,3 +49,8 @@ Access is strictly managed via a server-side `User ID` whitelist. Security follo
 3. **Two-Tier Validation:** 
    * *Client-Side:* `LocalScript` runs initial visibility checks for a clean user experience.
    * *Server-Side:* The server re-validates the sender's `User ID` against the whitelist on *every single request*. If an exploiter fires the `RemoteEvent` directly, the server instantly drops the request.
+     
+## 📺 Project Showcase (Video Demonstration)
+You can watch the full video demonstration of the command parser in action (including command execution, logging, error handling, and smooth UI animations) here:
+
+👉 **[Watch the Video Demonstration](https://youtu.be/co4W3W8pack)**
